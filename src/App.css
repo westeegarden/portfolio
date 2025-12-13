@@ -9,7 +9,7 @@ main {
   flex: 1;
 }
 
-/* Navbar container */
+/* Navbar styling ============================= */
 .navbar {
   position: sticky;
   top: 0;
@@ -50,12 +50,56 @@ main {
 
 .nav-links a:hover {
   color: #ddb986;
+  transform: scale(1.05);
+  transition: transform 0.2s;
 }
 
+/* Footer styling ============================= */
 .footer {
   padding: 16px;
   text-align: center;
   color: #919191;
+}
+
+/* Contact.tsx styling ============================= */
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 40px 20px;
+}
+
+.contact-header {
+  font-family: 'BBH Bartle', sans-serif;
+  font-size: 2rem;     
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center; 
+  gap: 60px;               
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  display: flex;
+  flex-direction: column;  /* stack vertically */
+  align-items: center;     /* center horizontally */
+  text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.contact-links a:hover {
+  color: #ddb986;
+  transform: scale(1.05);
+  transition: transform 0.2s;
 }
 
 .logo {
