@@ -1,28 +1,30 @@
-export type Project = {
-    title: string;
-    description: string;
-    link?: string;
+type ProjectCardProps = {
+  title: string;
+  description: string;
+  image: string;
+  link: string;
 };
 
-type Props = {
-    project: Project;
-};
+export default function ProjectCard({
+  title,
+  description,
+  image,
+  link,
+}: ProjectCardProps) {
+  return (
+    <div className="project-card">
+      <div className="project-content">
+        <h3>{title}</h3>
+        <p>{description}</p>
 
-export default function ProjectCard({ project }: Props) {
-    return (
-        <div className="p-5 bg-white rounded-2xl shadow hover:shadow-lg transition">
-            <h4 className="text-xl font-bold mb-2">{project.title}</h4>
-            <p className="text-gray-700 mb-4">{project.description}</p>
-            {project.link && (
-                <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 hover:underline"
-                >
-                    View Project
-                </a>
-            )}
-        </div>
-    );
+        {link && (
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            View Project →
+          </a>
+        )}
+      </div>
+
+      <img src={image} alt={title} className="project-image" />
+    </div>
+  );
 }

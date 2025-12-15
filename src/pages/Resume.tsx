@@ -1,8 +1,15 @@
 export default function Resume() {
   return (
-    <div>
-      <h2>Resume</h2>
-      <p>This is the Resume page of my portfolio.</p>
+    <div className="resume-page">
+        <h2 className="resume-header">My Resume</h2>
+
+        <iframe
+            src="/WesleyTeegardenResume.pdf"
+            width="100%"
+            height="800px"
+            title="Resume"
+            style={{ border: "1px solid #ccc" }}
+      />
     </div>
   );
 }
