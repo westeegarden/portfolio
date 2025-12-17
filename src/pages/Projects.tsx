@@ -35,11 +35,11 @@ const projects = [
         title: "Cold Cuts Score",
         description: "An original composition for jazz sextet.",
         image: "/public/coldCutsSnip.jpg",
-        link: "/About",
+        link: "/coldcuts",
     }
 ];
 
-export default function Projetcs() {
+export default function Projects() {
   return (
     <div className="projects-page">
         <h2 className="projects-header">My Projects</h2>
