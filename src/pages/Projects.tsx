@@ -4,37 +4,37 @@ const projects = [
     {
         title: "Doppelganger ML Guitar Pedal",
         description: "A machine learning powered guitar pedal that can mimic the sound of any guitar tone it is trained on.",
-        image: "/public/guiUpdate.jpg",
+        image: "/guiUpdate.jpg",
         link: "/doppelganger",
     },
     {
         title: "NiteOut Event Finder App",
         description: "A mobile app that helps users find local events and activities based on their interests and location.",
-        image: "/public/NiteOutHome.jpg",
+        image: "/NiteOutHome.jpg",
         link: "/niteout",
     },
     {
         title: "Compatible Chords CLI Tool",
         description: "A command-line tool that helps users learn about music theory and chord progressions.",
-        image: "/public/compChordsLogo.jpg",
+        image: "/compChordsLogo.jpg",
         link: "/compchords",
     },
     {
         title: "Mixing Master AI Agent",
         description: "An AI agent built on NeuralSeek's mAIstro platform that provides music producers with intelligent mixing and mastering suggestions.",
-        image: "/public/NeuralSeekLogo.jpg",
+        image: "/NeuralSeekLogo.jpg",
         link: "/mixingmaster",
     },
     {
         title: "Multi-lay VST Plugin",
         description: "A VST plugin that allows users to create complex layered sounds using three variable delay chanels.",
-        image: "/public/MultiLayGUI.jpg",
+        image: "/MultiLayGUI.jpg",
         link: "/multilay",
     },
     {
         title: "Cold Cuts Score",
         description: "An original composition for jazz sextet.",
-        image: "/public/coldCutsSnip.jpg",
+        image: "/coldCutsSnip.jpg",
         link: "/coldcuts",
     }
 ];

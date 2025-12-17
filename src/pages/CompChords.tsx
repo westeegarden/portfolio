@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import ProjectImages from "../components/ProjectImages";
 
 const compChordsImages = [
-  "/public/compChordsLogo.jpg",
-  "/public/ChordBank.jpg",
-  "/public/TrackBuild.jpg",
+  "/compChordsLogo.jpg",
+  "/ChordBank.jpg",
+  "/TrackBuild.jpg",
 ];
 
 export default function compChords() {

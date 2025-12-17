@@ -28,7 +28,7 @@ export default function ColdCuts() {
         {/* PDF section */}
         <div className="project-view-media">
           <iframe
-            src="/public/final_score.pdf"
+            src="/final_score.pdf"
             width="100%"
             height="800px"
             title="Cold Cuts Score"

@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import ProjectImages from "../components/ProjectImages";
 
 const doppelgangerImages = [
-  "/public/doppelgangerLinkedin.jpg",
-  "/public/flowchart.jpg",
-  "/public/guiUpdate.jpg",
-  "/public/joeyJumpGraph.png",
+  "/doppelgangerLinkedin.jpg",
+  "/flowchart.jpg",
+  "/guiUpdate.jpg",
+  "/joeyJumpGraph.png",
 ];
 
 export default function Doppelganger() {

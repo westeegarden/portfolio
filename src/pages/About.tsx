@@ -18,7 +18,7 @@ export default function About() {
         </div>
 
         <img
-          src="/public/me_on_keys.jpg"
+          src="/me_on_keys.jpg"
           alt="Wes Teegarden"
           className="about-image"
         />
