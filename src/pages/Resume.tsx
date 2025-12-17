@@ -5,10 +5,10 @@ export default function Resume() {
 
         <iframe
             src="/WesleyTeegardenResume.pdf"
-            width="100%"
+            width="70%"
             height="800px"
             title="Resume"
-            style={{ border: "1px solid #ccc" }}
+            style={{ border: "1px solid #000000ff" }}
       />
     </div>
   );

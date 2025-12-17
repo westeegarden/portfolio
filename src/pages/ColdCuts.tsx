@@ -1,9 +1,4 @@
 import { useEffect } from "react";
-import ProjectImages from "../components/ProjectImages";
-
-const coldCutsImages = [
-  "/public/coldCutsSnip.jpg",
-];
 
 export default function ColdCuts() {
   useEffect(() => {
@@ -37,7 +32,7 @@ export default function ColdCuts() {
             width="100%"
             height="800px"
             title="Cold Cuts Score"
-            style={{ border: "1px solid #ccc" }}
+            style={{ border: "1px solid #000000ff" }}
           />
         </div>
       </div>

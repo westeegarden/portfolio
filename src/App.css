@@ -362,6 +362,61 @@ main {
   object-fit: contain;
 }
 
+/* About.tsx styling ============================= */
+.about-page {
+  width: 100%;
+  min-height: 100vh;
+  position: relative; 
+}
+
+.about-header {
+  font-family: 'BBH Bartle', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 3rem 0;
+  position: relative;
+  z-index: 2; /* stays above image */
+}
+
+.about-subheader {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 100%;
+}
+
+
+.about-text {
+  max-width: 800px;
+  padding-top: 2rem;
+  padding-left: 10rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-image {
+  position: absolute;
+
+  top: -3rem;         
+  right: 0;
+  bottom: 1rem;          
+
+  width: auto;   /* adjust width automatically */
+  max-width: 40vw; 
+  height: 80vh;  
+  object-fit: contain;
+  z-index: 1;
+}
+
+
 
 .logo {
   height: 6em;
