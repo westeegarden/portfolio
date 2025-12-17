@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import ProjectImages from "../components/ProjectImages";
 
 const multiLayImages = [
-  "/MultiLayGUI.jpg",
+  `${import.meta.env.BASE_URL}MultiLayGUI.jpg`,
 ];
 
 export default function MultiLay() {

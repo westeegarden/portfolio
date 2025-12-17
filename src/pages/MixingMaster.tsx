@@ -2,12 +2,12 @@ import { useEffect } from "react";
 import ProjectImages from "../components/ProjectImages";
 
 const mixingMasterImages = [
-  "/agentFLow.jpg",
-  "/agentPrompt.jpg",
-  "/agentOutput.jpg",
-  "/level1cert.jpg",
-  "/level2cert.jpg",
-  "/level3cert.jpg",
+  `${import.meta.env.BASE_URL}agentFLow.jpg`,
+  `${import.meta.env.BASE_URL}agentPrompt.jpg`,
+  `${import.meta.env.BASE_URL}agentOutput.jpg`,
+  `${import.meta.env.BASE_URL}level1cert.jpg`,
+  `${import.meta.env.BASE_URL}level2cert.jpg`,
+  `${import.meta.env.BASE_URL}level3cert.jpg`,
 ];
 
 export default function MixingMaster() {

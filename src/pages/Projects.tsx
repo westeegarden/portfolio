@@ -4,37 +4,37 @@ const projects = [
     {
         title: "Doppelganger ML Guitar Pedal",
         description: "A machine learning powered guitar pedal that can mimic the sound of any guitar tone it is trained on.",
-        image: `${import.meta.env.BASE_URL}guiUpdate.jpg`,
+        image: `${import.meta.env.BASE_URL}guiUpdate.JPG`,
         link: "/doppelganger",
     },
     {
         title: "NiteOut Event Finder App",
         description: "A mobile app that helps users find local events and activities based on their interests and location.",
-        image: "/NiteOutHome.jpg",
+        image: `${import.meta.env.BASE_URL}NiteOutHome.jpg`,
         link: "/niteout",
     },
     {
         title: "Compatible Chords CLI Tool",
         description: "A command-line tool that helps users learn about music theory and chord progressions.",
-        image: "/compChordsLogo.jpg",
+        image: `${import.meta.env.BASE_URL}compChordsLogo.jpg`,
         link: "/compchords",
     },
     {
         title: "Mixing Master AI Agent",
         description: "An AI agent built on NeuralSeek's mAIstro platform that provides music producers with intelligent mixing and mastering suggestions.",
-        image: "/NeuralSeekLogo.jpg",
+        image: `${import.meta.env.BASE_URL}NeuralSeekLogo.jpg`,
         link: "/mixingmaster",
     },
     {
         title: "Multi-lay VST Plugin",
         description: "A VST plugin that allows users to create complex layered sounds using three variable delay chanels.",
-        image: "/MultiLayGUI.jpg",
+        image: `${import.meta.env.BASE_URL}MultiLayGUI.jpg`,
         link: "/multilay",
     },
     {
         title: "Cold Cuts Score",
         description: "An original composition for jazz sextet.",
-        image: "/coldCutsSnip.jpg",
+        image: `${import.meta.env.BASE_URL}coldCutsSnip.jpg`,
         link: "/coldcuts",
     }
 ];

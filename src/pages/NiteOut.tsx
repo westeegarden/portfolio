@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import ProjectImages from "../components/ProjectImages";
 
 const niteOutImages = [
-  "/NiteOutHome.jpg",
-  "/NiteOutEvents.jpg",
-  "/NiteOutMap.jpg",
+  `${import.meta.env.BASE_URL}NiteOutHome.jpg`,
+  `${import.meta.env.BASE_URL}NiteOutEvents.jpg`,
+  `${import.meta.env.BASE_URL}NiteOutMap.jpg`,
 ];
 
 export default function NiteOut() {
