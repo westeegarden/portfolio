@@ -12,6 +12,7 @@ import CompChords from "./pages/CompChords";
 import MixingMaster from "./pages/MixingMaster";
 import MultiLay from "./pages/MultiLay";
 import ColdCuts from "./pages/ColdCuts";
+import CompChordsWeb from "./pages/CompChordsWeb";
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
         <Route path="/mixingmaster" element={<MixingMaster />} />
         <Route path="/multilay" element={<MultiLay />} />
         <Route path="/coldcuts" element={<ColdCuts />} />
+        <Route path="/compchordsweb" element={<CompChordsWeb />} />
       </Routes>
     </main>
 

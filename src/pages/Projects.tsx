@@ -2,6 +2,12 @@ import ProjectCard from "../components/ProjectCard";
 
 const projects = [
     {
+        title: "Compatible Chords Web App",
+        description: "A web application that helps users learn about music theory and chord progressions with an intuitive drag-and-drop interface.",
+        image: `${import.meta.env.BASE_URL}CompChordsWebLogo.jpg`,
+        link: "/compchordsweb",
+    },
+    {
         title: "Doppelganger ML Guitar Pedal",
         description: "A machine learning powered guitar pedal that can mimic the sound of any guitar tone it is trained on.",
         image: `${import.meta.env.BASE_URL}guiUpdate.JPG`,
