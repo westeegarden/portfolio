@@ -3,7 +3,7 @@ import ProjectImages from "../components/ProjectImages";
 
 const compChordsWebImages = [
   `${import.meta.env.BASE_URL}CompChordsWebLogo.jpg`,
-  `${import.meta.env.BASE_URL}dawUI1.jpg`
+  `${import.meta.env.BASE_URL}cc_playback_update.jpg`
 ];
 
 export default function CompChordsWeb() {
@@ -20,9 +20,10 @@ export default function CompChordsWeb() {
           <p className="project-view-description">
             For my senior spring semester, I'm undertaking an independent study in UX design where I scale Compatible Chords, my CLI music 
             composition tool into a full web application. The UX is being reworked front to back to ensure the most helpful and intuitive
-            experience for users of all experience levels. The web app currently features drag and drop mini-DAW functionality, and I'm working on adding
-            audio playback, MIDI export, and tutorials to help new users get started. While the experience is reworked, the backend logic is pulled directly 
-            from the original CLI tool, ensuring the same powerful chord generation capabilities. - Project is currently in progress, stay tuned! -
+            experience for users of all experience levels. The web app currently features drag and drop mini-DAW functionality and audio
+            playback, and I'm working on adding MIDI export as well as tutorials to help new users get started. While the experience is reworked, 
+            the backend logic is pulled directly from the original CLI tool, ensuring the same powerful chord generation capabilities. 
+            - Project is currently in progress, stay tuned! -
           </p>
 
           <ul className="project-view-skills">
@@ -33,6 +34,7 @@ export default function CompChordsWeb() {
             <li>React</li>
             <li>JavaScript</li>
             <li>C++ Crow</li>
+            <li>Tone.js</li>
             <li>REST API design</li>
             <li>Music Theory</li>
           </ul>

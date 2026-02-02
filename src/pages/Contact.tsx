@@ -1,5 +1,5 @@
 import { MdEmail, MdSchool } from "react-icons/md";
-import { FaLinkedin, FaHandshake } from "react-icons/fa";
+import { FaLinkedin, FaHandshake, FaGithub } from "react-icons/fa";
 
 
 export default function Contact() {
@@ -23,6 +23,10 @@ export default function Contact() {
             <a href="https://app.joinhandshake.com/profiles/mcj9uu" target="_blank" rel="noopener noreferrer">
                 Handshake
                 <FaHandshake size={24} /> 
+            </a>
+            <a href="https://github.com/westeegarden" target="_blank" rel="noopener noreferrer">
+                GitHub
+                <FaGithub size={24} />
             </a>
         </div>
     </div>
