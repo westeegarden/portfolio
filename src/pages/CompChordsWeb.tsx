@@ -3,7 +3,7 @@ import ProjectImages from "../components/ProjectImages";
 
 const compChordsWebImages = [
   `${import.meta.env.BASE_URL}CompChordsWebLogo.jpg`,
-  `${import.meta.env.BASE_URL}cc_playback_update.jpg`
+  `${import.meta.env.BASE_URL}cc_update_3_18.jpg`
 ];
 
 export default function CompChordsWeb() {

@@ -2,6 +2,12 @@ import ProjectCard from "../components/ProjectCard";
 
 const projects = [
     {
+        title: "5-Band Parametric EQ",
+        description: "A digital implementation of a 5-band parametric equalizer with adjustable frequency, gain, and Q factor for each band.",
+        image: `${import.meta.env.BASE_URL}5_band_eq.jpg`,
+        link: "/eq",
+    },
+    {
         title: "Compatible Chords Web App",
         description: "A web application that helps users learn about music theory and chord progressions with an intuitive drag-and-drop interface.",
         image: `${import.meta.env.BASE_URL}CompChordsWebLogo.jpg`,
