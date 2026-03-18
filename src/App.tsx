@@ -13,7 +13,7 @@ import MixingMaster from "./pages/MixingMaster";
 import MultiLay from "./pages/MultiLay";
 import ColdCuts from "./pages/ColdCuts";
 import CompChordsWeb from "./pages/CompChordsWeb";
-import EQ from "./pages/eq";
+import EQ from "./pages/EQ";
 
 export default function App() {
   return (
