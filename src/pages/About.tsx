@@ -8,8 +8,8 @@ export default function About() {
         <div className="about-text">
           <h2 className="about-subheader">Hi, I'm Wes.</h2>
           <p>
-          I'm a senior at the University of Vermont studying Computer Science with a minor in Music Business and Technology, and a software Engineer
-          specializing in Digital Signal Processing (DSP) and front-end (UI/UX) design. Music is my passion, coding is my profession, and most of my
+          Currently located in Houston, TX, I'm a recent graduate of the University of Vermont where I obtained a Bachelor's degree in Computer Science with a minor in Music Business and Technology. 
+          As a software Engineer I specialize in Digital Signal Processing (DSP) and front-end (UI/UX) design. Music is my passion, coding is my profession, and most of my
           work lies at the intersection of the two. 
           </p>
           <p>

@@ -4,7 +4,7 @@ export default function Resume() {
         <h2 className="resume-header">My Resume</h2>
 
         <iframe
-            src={`${import.meta.env.BASE_URL}WesleyTeegardenResume3.pdf`}
+            src={`${import.meta.env.BASE_URL}Resume.pdf`}
             width="70%"
             height="800px"
             title="Resume"

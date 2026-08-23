@@ -8,10 +8,6 @@ export default function Contact() {
         <h2 className="contact-header">Contact Me</h2>
 
         <div className="contact-links">
-            <a href="mailto:wesley.teegarden@uvm.edu">
-                School Email
-                <MdSchool size={24} /> 
-            </a>
             <a href="mailto:westeegarden@gmail.com">
                 Gmail
                 <MdEmail size={24} /> 
